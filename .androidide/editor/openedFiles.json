@@ -1,35 +1,20 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/README.md",
+      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/flashbar/build.gradle.kts",
       "selection": {
         "end": {
-          "column": 28,
-          "index": 1629,
-          "line": 44
+          "column": 32,
+          "index": 1691,
+          "line": 67
         },
         "start": {
-          "column": 28,
-          "index": 1629,
-          "line": 44
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/jitpack.yml",
-      "selection": {
-        "end": {
-          "column": 42,
-          "index": 80,
-          "line": 4
-        },
-        "start": {
-          "column": 42,
-          "index": 80,
-          "line": 4
+          "column": 32,
+          "index": 1691,
+          "line": 67
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/flashbar/jitpack.yml"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/flashbar/flashbar/build.gradle.kts"
 }

@@ -65,7 +65,7 @@ afterEvaluate {
 
                 groupId = "com.github.hasanelfalakiy"
                 artifactId = "flashbar"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
