@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Builder</title>
+    <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../../index.html">
+                            flashbar
+                    </a>
+            </div>
+            <div class="library-version">
+1.0.0            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":flashbar:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="flashbar::com.andihasan7.flashbar/Flashbar.Builder///PointingToDeclaration//-1551059243">
+  <div class="breadcrumbs"><a href="../../../../index.html">flashbar</a><span class="delimiter">/</span><a href="../../index.html">com.andihasan7.flashbar</a><span class="delimiter">/</span><a href="../index.html">Flashbar</a><span class="delimiter">/</span><span class="current">Builder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Builder</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">activity<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-1670643271%2FConstructors%2F-1551059243" anchor-label="Builder" id="-1670643271%2FConstructors%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-builder.html"><span><span>Builder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1670643271%2FConstructors%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">activity<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1076298264%2FFunctions%2F-1551059243" anchor-label="backgroundColor" id="1076298264%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="background-color.html"><span>background</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1076298264%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="background-color.html"><span class="token function">backgroundColor</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a> </span>color<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the background color of the flashbar</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2089491070%2FFunctions%2F-1551059243" anchor-label="backgroundColorRes" id="2089491070%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="background-color-res.html"><span>background</span><wbr></wbr><span>Color</span><wbr></wbr><span><span>Res</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2089491070%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="background-color-res.html"><span class="token function">backgroundColorRes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorRes.html"><span class="token annotation builtin">ColorRes</span></a> </span>colorId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the background color resource of the flashbar</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="250289030%2FFunctions%2F-1551059243" anchor-label="backgroundDrawable" id="250289030%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="background-drawable.html"><span>background</span><wbr></wbr><span><span>Drawable</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="250289030%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="background-drawable.html"><span class="token function">backgroundDrawable</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">drawable<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/drawable/Drawable.html">Drawable</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the background drawable of the flashbar</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="background-drawable.html"><span class="token function">backgroundDrawable</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/DrawableRes.html"><span class="token annotation builtin">DrawableRes</span></a> </span>drawableId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the background drawable resource of the flashbar</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-234740007%2FFunctions%2F-1551059243" anchor-label="barDismissListener" id="-234740007%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="bar-dismiss-listener.html"><span>bar</span><wbr></wbr><span>Dismiss</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-234740007%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="bar-dismiss-listener.html"><span class="token function">barDismissListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">listener<span class="token operator">: </span><a href="../-on-bar-dismiss-listener/index.html">Flashbar.OnBarDismissListener</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Sets listener to receive bar dismissing/dismissed events</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1909375941%2FFunctions%2F-1551059243" anchor-label="barShowListener" id="1909375941%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="bar-show-listener.html"><span>bar</span><wbr></wbr><span>Show</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1909375941%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="bar-show-listener.html"><span class="token function">barShowListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">listener<span class="token operator">: </span><a href="../-on-bar-show-listener/index.html">Flashbar.OnBarShowListener</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Sets listener to receive bar showing/shown events</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1832436223%2FFunctions%2F-1551059243" anchor-label="build" id="-1832436223%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="build.html"><span><span>build</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1832436223%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="build.html"><span class="token function">build</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../index.html">Flashbar</a></div><div class="brief "><p class="paragraph">Builds a flashbar instance</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1178792996%2FFunctions%2F-1551059243" anchor-label="dismissOnTapOutside" id="1178792996%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="dismiss-on-tap-outside.html"><span>dismiss</span><wbr></wbr><span>On</span><wbr></wbr><span>Tap</span><wbr></wbr><span><span>Outside</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1178792996%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="dismiss-on-tap-outside.html"><span class="token function">dismissOnTapOutside</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Dismisses the bar on being tapped outside</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1998431134%2FFunctions%2F-1551059243" anchor-label="duration" id="-1998431134%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="duration.html"><span><span>duration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1998431134%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="duration.html"><span class="token function">duration</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">milliseconds<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the duration for which the flashbar will be visible By default, the duration is infinite</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1339309491%2FFunctions%2F-1551059243" anchor-label="enableSwipeToDismiss" id="1339309491%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="enable-swipe-to-dismiss.html"><span>enable</span><wbr></wbr><span>Swipe</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Dismiss</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1339309491%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="enable-swipe-to-dismiss.html"><span class="token function">enableSwipeToDismiss</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Enables swipe-to-dismiss for the flashbar</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="4137447%2FFunctions%2F-1551059243" anchor-label="enterAnimation" id="4137447%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="enter-animation.html"><span>enter</span><wbr></wbr><span><span>Animation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="4137447%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="enter-animation.html"><span class="token function">enterAnimation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builder<span class="token operator">: </span><a href="../../../com.andihasan7.flashbar.anim/-flash-anim-bar-builder/index.html">FlashAnimBarBuilder</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the enter animation of the flashbar</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1489873327%2FFunctions%2F-1551059243" anchor-label="exitAnimation" id="-1489873327%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="exit-animation.html"><span>exit</span><wbr></wbr><span><span>Animation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1489873327%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="exit-animation.html"><span class="token function">exitAnimation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builder<span class="token operator">: </span><a href="../../../com.andihasan7.flashbar.anim/-flash-anim-bar-builder/index.html">FlashAnimBarBuilder</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the exit animation of the flashbar</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="388330674%2FFunctions%2F-1551059243" anchor-label="gravity" id="388330674%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="gravity.html"><span><span>gravity</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="388330674%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="gravity.html"><span class="token function">gravity</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">gravity<span class="token operator">: </span><a href="../-gravity/index.html">Flashbar.Gravity</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the gravity from where the flashbar will be shown (top/bottom) Default gravity is TOP</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1585060605%2FFunctions%2F-1551059243" anchor-label="icon" id="1585060605%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="icon.html"><span><span>icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1585060605%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="icon.html"><span class="token function">icon</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">bitmap<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Bitmap.html">Bitmap</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the icon bitmap</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="icon.html"><span class="token function">icon</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">icon<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/drawable/Drawable.html">Drawable</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the icon drawable</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="icon.html"><span class="token function">icon</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/DrawableRes.html"><span class="token annotation builtin">DrawableRes</span></a> </span>iconId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the icon drawable resource</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="142697324%2FFunctions%2F-1551059243" anchor-label="iconAnimation" id="142697324%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="icon-animation.html"><span>icon</span><wbr></wbr><span><span>Animation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="142697324%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="icon-animation.html"><span class="token function">iconAnimation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builder<span class="token operator">: </span><a href="../../../com.andihasan7.flashbar.anim/-flash-anim-icon-builder/index.html">FlashAnimIconBuilder</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the icon builder</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-948027619%2FFunctions%2F-1551059243" anchor-label="iconColorFilter" id="-948027619%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="icon-color-filter.html"><span>icon</span><wbr></wbr><span>Color</span><wbr></wbr><span><span>Filter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-948027619%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a></div></div><span class="token keyword">fun </span><a href="icon-color-filter.html"><span class="token function">iconColorFilter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a> </span>color<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">mode<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PorterDuff.Mode.html">PorterDuff.Mode</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the icon color filter and mode</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="724536381%2FFunctions%2F-1551059243" anchor-label="iconColorFilterRes" id="724536381%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="icon-color-filter-res.html"><span>icon</span><wbr></wbr><span>Color</span><wbr></wbr><span>Filter</span><wbr></wbr><span><span>Res</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="724536381%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a></div></div><span class="token keyword">fun </span><a href="icon-color-filter-res.html"><span class="token function">iconColorFilterRes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorRes.html"><span class="token annotation builtin">ColorRes</span></a> </span>colorId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">mode<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PorterDuff.Mode.html">PorterDuff.Mode</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the icon color filter resource and mode</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="838457178%2FFunctions%2F-1551059243" anchor-label="listenBarTaps" id="838457178%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="listen-bar-taps.html"><span>listen</span><wbr></wbr><span>Bar</span><wbr></wbr><span><span>Taps</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="838457178%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="listen-bar-taps.html"><span class="token function">listenBarTaps</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">listener<span class="token operator">: </span><a href="../-on-tap-listener/index.html">Flashbar.OnTapListener</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Sets listener to receive tap events on the surface of the bar</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1136252408%2FFunctions%2F-1551059243" anchor-label="listenOutsideTaps" id="-1136252408%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="listen-outside-taps.html"><span>listen</span><wbr></wbr><span>Outside</span><wbr></wbr><span><span>Taps</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1136252408%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="listen-outside-taps.html"><span class="token function">listenOutsideTaps</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">listener<span class="token operator">: </span><a href="../-on-tap-listener/index.html">Flashbar.OnTapListener</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Sets listener to receive tap events outside flashbar surface</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-757218469%2FFunctions%2F-1551059243" anchor-label="message" id="-757218469%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="message.html"><span><span>message</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-757218469%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="message.html"><span class="token function">message</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">message<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/text/Spanned.html">Spanned</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the message string span</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="message.html"><span class="token function">message</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StringRes.html"><span class="token annotation builtin">StringRes</span></a> </span>messageId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the message string resource</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="message.html"><span class="token function">message</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">message<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the message string</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1855195934%2FFunctions%2F-1551059243" anchor-label="messageAppearance" id="-1855195934%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="message-appearance.html"><span>message</span><wbr></wbr><span><span>Appearance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1855195934%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="message-appearance.html"><span class="token function">messageAppearance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StyleRes.html"><span class="token annotation builtin">StyleRes</span></a> </span>appearance<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the message appearance</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1414462797%2FFunctions%2F-1551059243" anchor-label="messageColor" id="1414462797%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="message-color.html"><span>message</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1414462797%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="message-color.html"><span class="token function">messageColor</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a> </span>color<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the message color</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="355817257%2FFunctions%2F-1551059243" anchor-label="messageColorRes" id="355817257%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="message-color-res.html"><span>message</span><wbr></wbr><span>Color</span><wbr></wbr><span><span>Res</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="355817257%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="message-color-res.html"><span class="token function">messageColorRes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorRes.html"><span class="token annotation builtin">ColorRes</span></a> </span>colorId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the message color resource</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2115103627%2FFunctions%2F-1551059243" anchor-label="messageSizeInPx" id="2115103627%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="message-size-in-px.html"><span>message</span><wbr></wbr><span>Size</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Px</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2115103627%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="message-size-in-px.html"><span class="token function">messageSizeInPx</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the message size (in pixels)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-830477226%2FFunctions%2F-1551059243" anchor-label="messageSizeInSp" id="-830477226%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="message-size-in-sp.html"><span>message</span><wbr></wbr><span>Size</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Sp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-830477226%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="message-size-in-sp.html"><span class="token function">messageSizeInSp</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the message size (in sp)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="425061526%2FFunctions%2F-1551059243" anchor-label="messageTypeface" id="425061526%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="message-typeface.html"><span>message</span><wbr></wbr><span><span>Typeface</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="425061526%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="message-typeface.html"><span class="token function">messageTypeface</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">typeface<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Typeface.html">Typeface</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the message typeface</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="457590176%2FFunctions%2F-1551059243" anchor-label="negativeActionTapListener" id="457590176%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="negative-action-tap-listener.html"><span>negative</span><wbr></wbr><span>Action</span><wbr></wbr><span>Tap</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="457590176%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="negative-action-tap-listener.html"><span class="token function">negativeActionTapListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">onActionTapListener<span class="token operator">: </span><a href="../-on-action-tap-listener/index.html">Flashbar.OnActionTapListener</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Sets listener to receive tap events on the negative action</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1902036666%2FFunctions%2F-1551059243" anchor-label="negativeActionText" id="-1902036666%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="negative-action-text.html"><span>negative</span><wbr></wbr><span>Action</span><wbr></wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1902036666%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="negative-action-text.html"><span class="token function">negativeActionText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">actionText<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/text/Spanned.html">Spanned</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the negative action text string span</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="negative-action-text.html"><span class="token function">negativeActionText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StringRes.html"><span class="token annotation builtin">StringRes</span></a> </span>actionTextId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the negative action text string resource</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="negative-action-text.html"><span class="token function">negativeActionText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">text<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the negative action text string</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1845988301%2FFunctions%2F-1551059243" anchor-label="negativeActionTextAppearance" id="1845988301%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="negative-action-text-appearance.html"><span>negative</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span><span>Appearance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1845988301%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="negative-action-text-appearance.html"><span class="token function">negativeActionTextAppearance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StyleRes.html"><span class="token annotation builtin">StyleRes</span></a> </span>appearance<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the negative action text appearance</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="904232834%2FFunctions%2F-1551059243" anchor-label="negativeActionTextColor" id="904232834%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="negative-action-text-color.html"><span>negative</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="904232834%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="negative-action-text-color.html"><span class="token function">negativeActionTextColor</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a> </span>color<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the negative action text color</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-15749932%2FFunctions%2F-1551059243" anchor-label="negativeActionTextColorRes" id="-15749932%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="negative-action-text-color-res.html"><span>negative</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span>Color</span><wbr></wbr><span><span>Res</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-15749932%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="negative-action-text-color-res.html"><span class="token function">negativeActionTextColorRes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorRes.html"><span class="token annotation builtin">ColorRes</span></a> </span>colorId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the negative action text color resource</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1521320566%2FFunctions%2F-1551059243" anchor-label="negativeActionTextSizeInPx" id="1521320566%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="negative-action-text-size-in-px.html"><span>negative</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span>Size</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Px</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1521320566%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="negative-action-text-size-in-px.html"><span class="token function">negativeActionTextSizeInPx</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the negative action text size (in pixels)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1424260287%2FFunctions%2F-1551059243" anchor-label="negativeActionTextSizeInSp" id="-1424260287%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="negative-action-text-size-in-sp.html"><span>negative</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span>Size</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Sp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1424260287%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="negative-action-text-size-in-sp.html"><span class="token function">negativeActionTextSizeInSp</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the negative action text size (in sp)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="458632075%2FFunctions%2F-1551059243" anchor-label="negativeActionTextTypeface" id="458632075%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="negative-action-text-typeface.html"><span>negative</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span><span>Typeface</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="458632075%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="negative-action-text-typeface.html"><span class="token function">negativeActionTextTypeface</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">typeface<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Typeface.html">Typeface</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the negative action text typeface</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1737572980%2FFunctions%2F-1551059243" anchor-label="overlayBlockable" id="1737572980%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="overlay-blockable.html"><span>overlay</span><wbr></wbr><span><span>Blockable</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1737572980%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="overlay-blockable.html"><span class="token function">overlayBlockable</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies if modal overlay is blockable and should comsume touch events</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="40928406%2FFunctions%2F-1551059243" anchor-label="overlayColor" id="40928406%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="overlay-color.html"><span>overlay</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="40928406%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="overlay-color.html"><span class="token function">overlayColor</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a> </span>color<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies modal overlay color</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-453796032%2FFunctions%2F-1551059243" anchor-label="overlayColorRes" id="-453796032%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="overlay-color-res.html"><span>overlay</span><wbr></wbr><span>Color</span><wbr></wbr><span><span>Res</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-453796032%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="overlay-color-res.html"><span class="token function">overlayColorRes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorRes.html"><span class="token annotation builtin">ColorRes</span></a> </span>colorId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies modal overlay color resource Modal overlay is automatically shown if color is set</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1025620892%2FFunctions%2F-1551059243" anchor-label="positiveActionTapListener" id="-1025620892%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="positive-action-tap-listener.html"><span>positive</span><wbr></wbr><span>Action</span><wbr></wbr><span>Tap</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1025620892%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="positive-action-tap-listener.html"><span class="token function">positiveActionTapListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">onActionTapListener<span class="token operator">: </span><a href="../-on-action-tap-listener/index.html">Flashbar.OnActionTapListener</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Sets listener to receive tap events on the positive action</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1484675694%2FFunctions%2F-1551059243" anchor-label="positiveActionText" id="-1484675694%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="positive-action-text.html"><span>positive</span><wbr></wbr><span>Action</span><wbr></wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1484675694%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="positive-action-text.html"><span class="token function">positiveActionText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">actionText<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/text/Spanned.html">Spanned</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the positive action text string span</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="positive-action-text.html"><span class="token function">positiveActionText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StringRes.html"><span class="token annotation builtin">StringRes</span></a> </span>actionTextId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the positive action text string resource</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="positive-action-text.html"><span class="token function">positiveActionText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">text<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the positive action text string</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="221827465%2FFunctions%2F-1551059243" anchor-label="positiveActionTextAppearance" id="221827465%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="positive-action-text-appearance.html"><span>positive</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span><span>Appearance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="221827465%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="positive-action-text-appearance.html"><span class="token function">positiveActionTextAppearance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StyleRes.html"><span class="token annotation builtin">StyleRes</span></a> </span>appearance<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the positive action text appearance</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="548836422%2FFunctions%2F-1551059243" anchor-label="positiveActionTextColor" id="548836422%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="positive-action-text-color.html"><span>positive</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="548836422%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="positive-action-text-color.html"><span class="token function">positiveActionTextColor</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a> </span>color<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the positive action text color</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-535875184%2FFunctions%2F-1551059243" anchor-label="positiveActionTextColorRes" id="-535875184%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="positive-action-text-color-res.html"><span>positive</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span>Color</span><wbr></wbr><span><span>Res</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-535875184%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="positive-action-text-color-res.html"><span class="token function">positiveActionTextColorRes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorRes.html"><span class="token annotation builtin">ColorRes</span></a> </span>colorId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the positive action text color resource</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-102840270%2FFunctions%2F-1551059243" anchor-label="positiveActionTextSizeInPx" id="-102840270%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="positive-action-text-size-in-px.html"><span>positive</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span>Size</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Px</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-102840270%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="positive-action-text-size-in-px.html"><span class="token function">positiveActionTextSizeInPx</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the positive action text size (in pixels)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1246546173%2FFunctions%2F-1551059243" anchor-label="positiveActionTextSizeInSp" id="1246546173%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="positive-action-text-size-in-sp.html"><span>positive</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span>Size</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Sp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1246546173%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="positive-action-text-size-in-sp.html"><span class="token function">positiveActionTextSizeInSp</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the positive action text size (in sp)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="436016975%2FFunctions%2F-1551059243" anchor-label="positiveActionTextTypeface" id="436016975%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="positive-action-text-typeface.html"><span>positive</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span><span>Typeface</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="436016975%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="positive-action-text-typeface.html"><span class="token function">positiveActionTextTypeface</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">typeface<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Typeface.html">Typeface</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the positive action text typeface</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-321796471%2FFunctions%2F-1551059243" anchor-label="primaryActionTapListener" id="-321796471%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="primary-action-tap-listener.html"><span>primary</span><wbr></wbr><span>Action</span><wbr></wbr><span>Tap</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-321796471%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="primary-action-tap-listener.html"><span class="token function">primaryActionTapListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">onActionTapListener<span class="token operator">: </span><a href="../-on-action-tap-listener/index.html">Flashbar.OnActionTapListener</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Sets listener to receive tap events on the primary action</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-277479239%2FFunctions%2F-1551059243" anchor-label="primaryActionText" id="-277479239%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="primary-action-text.html"><span>primary</span><wbr></wbr><span>Action</span><wbr></wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-277479239%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="primary-action-text.html"><span class="token function">primaryActionText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">actionText<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/text/Spanned.html">Spanned</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the primary action text string span</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="primary-action-text.html"><span class="token function">primaryActionText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StringRes.html"><span class="token annotation builtin">StringRes</span></a> </span>actionTextId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the primary action text string resource</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="primary-action-text.html"><span class="token function">primaryActionText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">text<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the primary action text string</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1517425916%2FFunctions%2F-1551059243" anchor-label="primaryActionTextAppearance" id="-1517425916%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="primary-action-text-appearance.html"><span>primary</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span><span>Appearance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1517425916%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="primary-action-text-appearance.html"><span class="token function">primaryActionTextAppearance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StyleRes.html"><span class="token annotation builtin">StyleRes</span></a> </span>appearance<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the primary action text appearance</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="355482091%2FFunctions%2F-1551059243" anchor-label="primaryActionTextColor" id="355482091%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="primary-action-text-color.html"><span>primary</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="355482091%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="primary-action-text-color.html"><span class="token function">primaryActionTextColor</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a> </span>color<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the primary action text color</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1203606069%2FFunctions%2F-1551059243" anchor-label="primaryActionTextColorRes" id="-1203606069%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="primary-action-text-color-res.html"><span>primary</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span>Color</span><wbr></wbr><span><span>Res</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1203606069%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="primary-action-text-color-res.html"><span class="token function">primaryActionTextColorRes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorRes.html"><span class="token annotation builtin">ColorRes</span></a> </span>colorId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the primary action text color resource</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1842093651%2FFunctions%2F-1551059243" anchor-label="primaryActionTextSizeInPx" id="-1842093651%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="primary-action-text-size-in-px.html"><span>primary</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span>Size</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Px</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1842093651%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="primary-action-text-size-in-px.html"><span class="token function">primaryActionTextSizeInPx</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the primary action text size (in pixels)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-492707208%2FFunctions%2F-1551059243" anchor-label="primaryActionTextSizeInSp" id="-492707208%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="primary-action-text-size-in-sp.html"><span>primary</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span>Size</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Sp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-492707208%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="primary-action-text-size-in-sp.html"><span class="token function">primaryActionTextSizeInSp</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the primary action text size (in sp)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1576501836%2FFunctions%2F-1551059243" anchor-label="primaryActionTextTypeface" id="-1576501836%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="primary-action-text-typeface.html"><span>primary</span><wbr></wbr><span>Action</span><wbr></wbr><span>Text</span><wbr></wbr><span><span>Typeface</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1576501836%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="primary-action-text-typeface.html"><span class="token function">primaryActionTextTypeface</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">typeface<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Typeface.html">Typeface</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the primary action text typeface</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1089064609%2FFunctions%2F-1551059243" anchor-label="progressTint" id="1089064609%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="progress-tint.html"><span>progress</span><wbr></wbr><span><span>Tint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1089064609%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="progress-tint.html"><span class="token function">progressTint</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a> </span>color<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the indeterminate progress tint</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="159585621%2FFunctions%2F-1551059243" anchor-label="progressTintRes" id="159585621%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="progress-tint-res.html"><span>progress</span><wbr></wbr><span>Tint</span><wbr></wbr><span><span>Res</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="159585621%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="progress-tint-res.html"><span class="token function">progressTintRes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorRes.html"><span class="token annotation builtin">ColorRes</span></a> </span>colorId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the indeterminate progress tint resource</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1472634834%2FFunctions%2F-1551059243" anchor-label="show" id="-1472634834%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show.html"><span><span>show</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1472634834%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="show.html"><span class="token function">show</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Shows the flashbar</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-300135474%2FFunctions%2F-1551059243" anchor-label="showIcon" id="-300135474%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-icon.html"><span>show</span><wbr></wbr><span><span>Icon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-300135474%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a></div></div><span class="token keyword">fun </span><a href="show-icon.html"><span class="token function">showIcon</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">scale<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token operator"> = </span>DEFAUT_ICON_SCALE<span class="token punctuation">, </span></span><span class="parameter ">scaleType<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/widget/ImageView.ScaleType.html">ImageView.ScaleType</a><span class="token operator"> = </span>CENTER_CROP</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies if the icon should be shown. Also configures its scale factor and scale type</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="389115900%2FFunctions%2F-1551059243" anchor-label="showOverlay" id="389115900%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-overlay.html"><span>show</span><wbr></wbr><span><span>Overlay</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="389115900%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="show-overlay.html"><span class="token function">showOverlay</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Shows the modal overlay</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-779797716%2FFunctions%2F-1551059243" anchor-label="showProgress" id="-779797716%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-progress.html"><span>show</span><wbr></wbr><span><span>Progress</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-779797716%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="show-progress.html"><span class="token function">showProgress</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">position<span class="token operator">: </span><a href="../-progress-position/index.html">Flashbar.ProgressPosition</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the gravity in which the indeterminate progress is shown (left/right)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1688374324%2FFunctions%2F-1551059243" anchor-label="title" id="-1688374324%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="title.html"><span><span>title</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1688374324%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="title.html"><span class="token function">title</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">title<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/text/Spanned.html">Spanned</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the title span</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="title.html"><span class="token function">title</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StringRes.html"><span class="token annotation builtin">StringRes</span></a> </span>titleId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the title string res</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="title.html"><span class="token function">title</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">title<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the title string</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-892004687%2FFunctions%2F-1551059243" anchor-label="titleAppearance" id="-892004687%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="title-appearance.html"><span>title</span><wbr></wbr><span><span>Appearance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-892004687%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="title-appearance.html"><span class="token function">titleAppearance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StyleRes.html"><span class="token annotation builtin">StyleRes</span></a> </span>appearance<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the title appearance</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1744980450%2FFunctions%2F-1551059243" anchor-label="titleColor" id="-1744980450%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="title-color.html"><span>title</span><wbr></wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1744980450%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="title-color.html"><span class="token function">titleColor</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a> </span>color<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the title color</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1590337720%2FFunctions%2F-1551059243" anchor-label="titleColorRes" id="1590337720%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="title-color-res.html"><span>title</span><wbr></wbr><span>Color</span><wbr></wbr><span><span>Res</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1590337720%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="title-color-res.html"><span class="token function">titleColorRes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorRes.html"><span class="token annotation builtin">ColorRes</span></a> </span>colorId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the title color resource</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1216672422%2FFunctions%2F-1551059243" anchor-label="titleSizeInPx" id="-1216672422%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="title-size-in-px.html"><span>title</span><wbr></wbr><span>Size</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Px</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1216672422%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="title-size-in-px.html"><span class="token function">titleSizeInPx</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the title size (in pixels)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="132714021%2FFunctions%2F-1551059243" anchor-label="titleSizeInSp" id="132714021%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="title-size-in-sp.html"><span>title</span><wbr></wbr><span>Size</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Sp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="132714021%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="title-size-in-sp.html"><span class="token function">titleSizeInSp</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the title size (in sp)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1809871655%2FFunctions%2F-1551059243" anchor-label="titleTypeface" id="1809871655%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="title-typeface.html"><span>title</span><wbr></wbr><span><span>Typeface</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1809871655%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="title-typeface.html"><span class="token function">titleTypeface</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">typeface<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Typeface.html">Typeface</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies the title typeface</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1112610586%2FFunctions%2F-1551059243" anchor-label="vibrateOn" id="-1112610586%2FFunctions%2F-1551059243" data-filterable-set=":flashbar:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":flashbar:dokkaHtml/release" data-filterable-set=":flashbar:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="vibrate-on.html"><span>vibrate</span><wbr></wbr><span><span>On</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1112610586%2FFunctions%2F-1551059243"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":flashbar:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="vibrate-on.html"><span class="token function">vibrateOn</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>vibrate<span class="token operator">: </span><a href="../-vibration/index.html">Flashbar.Vibration</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Flashbar.Builder</a></div><div class="brief "><p class="paragraph">Specifies whether the device should vibrate during flashbar enter/exit/both</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

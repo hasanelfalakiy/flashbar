@@ -10,12 +10,19 @@ plugins {
     alias(libs.plugins.android.library)
 
     alias(libs.plugins.kotlin.android)
+    
+    // Aplly Dokka plugin
+    alias(libs.plugins.dokka)
 
     // Apply the java-library plugin for API and implementation separation.
     //`java-library`
     
     // maven publish
 	//`maven-publish`
+}
+
+subprojects {
+    apply(libs.plugins.dokka)
 }
 
 android {
@@ -102,3 +109,15 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 */
+
+tasks.dokkaHtml.configure {
+    // custom dokka output directory
+    outputDirectory.set(file("../docs"))
+}
+
+tasks.withType<org.jetbrains.dokka.gradle.DokkaTask>().configureEach {
+    // Memisahkan member agar tampil menjadi tab
+    pluginsMapConfiguration.set(
+        mapOf("org.jetbrains.dokka.base.DokkaBase" to """{ "separateInheritedMembers": true }""")
+    )
+}
