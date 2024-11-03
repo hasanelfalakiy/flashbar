@@ -28,7 +28,7 @@ WIP (work in progress)
 
 ## Documentation
 
-- [Documentation](https://hasanelfalakiy.github.io/flashbar/docs/index.html)
+- [Documentation](https://hasanelfalakiy.github.io/flashbar/)
 
 ## Usage
 
