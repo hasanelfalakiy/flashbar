@@ -14,7 +14,7 @@ plugins {
     alias(libs.plugins.dokka)
     
     // maven publish
-	alias(libs.plugins.maven.publish)
+	id("maven-publish")
 }
 
 subprojects {
@@ -65,7 +65,7 @@ afterEvaluate {
 
                 groupId = "com.github.hasanelfalakiy"
                 artifactId = "flashbar"
-                version = "1.0.1"
+                version = "1.0-SNAPSHOT"
             }
         }
     }

@@ -4,14 +4,29 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/flashbar/build.gradle.kts",
       "selection": {
         "end": {
-          "column": 32,
-          "index": 1691,
+          "column": 30,
+          "index": 1675,
           "line": 67
         },
         "start": {
-          "column": 32,
-          "index": 1691,
+          "column": 30,
+          "index": 1675,
           "line": 67
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/gradle/libs.versions.toml",
+      "selection": {
+        "end": {
+          "column": 10,
+          "index": 164,
+          "line": 4
+        },
+        "start": {
+          "column": 10,
+          "index": 164,
+          "line": 4
         }
       }
     }
