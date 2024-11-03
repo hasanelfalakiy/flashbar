@@ -8,17 +8,13 @@
 plugins {
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
     alias(libs.plugins.android.library)
-
     alias(libs.plugins.kotlin.android)
     
     // Aplly Dokka plugin
     alias(libs.plugins.dokka)
-
-    // Apply the java-library plugin for API and implementation separation.
-    //`java-library`
     
     // maven publish
-	//`maven-publish`
+	alias(libs.plugins.maven.publish)
 }
 
 subprojects {
@@ -31,8 +27,8 @@ android {
     
     defaultConfig {
         
-        minSdk = 26
-        
+        minSdk = 21
+        targetSdk = 34
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
         
@@ -61,17 +57,21 @@ android {
     }
 }
 
-group = "com.andihasan7.flashbar"
-version = "1.0.0"
-/*
-publishing {
-	publications {
-		create<MavenPublication>("Maven") {
-			from(components["java"])
-		}
-	}
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+
+                groupId = "com.github.hasanelfalakiy"
+                artifactId = "flashbar"
+                version = "1.0.0"
+            }
+        }
+    }
 }
 
+/*
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
@@ -93,8 +93,6 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.google.material)
-
-    //implementation(projects.core.resources)
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
