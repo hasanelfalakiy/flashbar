@@ -1,20 +1,50 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/flashbar/build.gradle.kts",
+      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/README.md",
       "selection": {
         "end": {
           "column": 28,
-          "index": 728,
-          "line": 24
+          "index": 1629,
+          "line": 44
         },
         "start": {
           "column": 28,
-          "index": 728,
-          "line": 24
+          "index": 1629,
+          "line": 44
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/flashbar/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/flashbar/src/test/kotlin/com/andihasan7/flashbar/LibraryTest.kt",
+      "selection": {
+        "end": {
+          "column": 4,
+          "index": 179,
+          "line": 9
+        },
+        "start": {
+          "column": 4,
+          "index": 179,
+          "line": 9
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/flashbar/flashbar/build.gradle.kts"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/flashbar/README.md"
 }
