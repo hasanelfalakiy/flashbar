@@ -4,14 +4,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/app/src/main/res/layout/activity_main.xml",
       "selection": {
         "end": {
-          "column": 24,
-          "index": 1589,
-          "line": 43
+          "column": 78,
+          "index": 1740,
+          "line": 44
         },
         "start": {
-          "column": 24,
-          "index": 1589,
-          "line": 43
+          "column": 78,
+          "index": 1740,
+          "line": 44
         }
       }
     },
@@ -19,14 +19,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/app/src/main/res/values/strings.xml",
       "selection": {
         "end": {
-          "column": 28,
-          "index": 216,
-          "line": 5
+          "column": 64,
+          "index": 212,
+          "line": 4
         },
         "start": {
-          "column": 28,
-          "index": 216,
-          "line": 5
+          "column": 64,
+          "index": 212,
+          "line": 4
         }
       }
     },
@@ -34,32 +34,17 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/app/src/main/java/com/andihasan7/flashbarsample/MainActivity.kt",
       "selection": {
         "end": {
-          "column": 48,
-          "index": 1884,
-          "line": 56
+          "column": 47,
+          "index": 1634,
+          "line": 44
         },
         "start": {
-          "column": 48,
-          "index": 1884,
-          "line": 56
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/README_IN.md",
-      "selection": {
-        "end": {
-          "column": 27,
-          "index": 1886,
-          "line": 53
-        },
-        "start": {
-          "column": 27,
-          "index": 1886,
-          "line": 53
+          "column": 47,
+          "index": 1634,
+          "line": 44
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/flashbar/README_IN.md"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/flashbar/app/src/main/res/layout/activity_main.xml"
 }

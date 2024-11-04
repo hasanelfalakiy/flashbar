@@ -2,7 +2,8 @@
 <resources>
     <string name="app_name">flashbar</string>
     <string name="title">Awesome Flashbar</string>
-    <string name="basic">Basic</string>
+    <string name="basic_without_duration">Basic without duration</string>
+    <string name="basic_with_duration">Basic with duration</string>
     <string name="dismiss">Dismiss</string>
 
 </resources>
