@@ -1,0 +1,65 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/app/src/main/res/layout/activity_main.xml",
+      "selection": {
+        "end": {
+          "column": 24,
+          "index": 1589,
+          "line": 43
+        },
+        "start": {
+          "column": 24,
+          "index": 1589,
+          "line": 43
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/app/src/main/res/values/strings.xml",
+      "selection": {
+        "end": {
+          "column": 28,
+          "index": 216,
+          "line": 5
+        },
+        "start": {
+          "column": 28,
+          "index": 216,
+          "line": 5
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/app/src/main/java/com/andihasan7/flashbarsample/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 48,
+          "index": 1884,
+          "line": 56
+        },
+        "start": {
+          "column": 48,
+          "index": 1884,
+          "line": 56
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/flashbar/README_IN.md",
+      "selection": {
+        "end": {
+          "column": 27,
+          "index": 1886,
+          "line": 53
+        },
+        "start": {
+          "column": 27,
+          "index": 1886,
+          "line": 53
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/flashbar/README_IN.md"
+}

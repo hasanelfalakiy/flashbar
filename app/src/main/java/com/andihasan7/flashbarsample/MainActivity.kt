@@ -40,21 +40,21 @@ public class MainActivity : AppCompatActivity() {
         
         var flashbar: Flashbar? = null
 
-        binding.btn.setOnClickListener {
+        binding.btnBasic.setOnClickListener {
             if (flashbar == null) {
                 flashbar = basic()
             }
             flashbar?.show()
         }
 
-        binding.dismiss.setOnClickListener {
+        binding.btnDismiss.setOnClickListener {
             flashbar?.dismiss()
         }
     }
     
     private fun basic(): Flashbar {
         return Flashbar.Builder(this)
-                .gravity(Flashbar.Gravity.TOP)
+                .gravity(Flashbar.Gravity.BOTTOM)
                 .message("This is a basic flashbar")
                 .build()
     }

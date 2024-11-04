@@ -48,6 +48,7 @@
           android:layout_marginRight="@dimen/fb_margin_right_icon"
           android:layout_gravity="center_vertical"
           android:importantForAccessibility="no"
+          android:src="@drawable/ic_info"
           android:visibility="gone"
           app:tint="?colorOnPrimaryContainer"
           tools:visibility="visible" />

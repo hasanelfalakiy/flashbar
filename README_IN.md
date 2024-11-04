@@ -51,7 +51,7 @@ di dalam blok ```dependencies```
 ```kotlin.kts
 implementation("com.github.hasanelfalakiy:flashbar:${version}")
 ```
-if using groovy dsl
+jika menggunakan groovy dsl
 ```groovy
 implementation 'com.github.hasanelfalakiy:flashbar:${version}'
 ```
