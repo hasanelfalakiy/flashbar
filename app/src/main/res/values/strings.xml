@@ -8,8 +8,16 @@
     <string name="fb_title">Title</string>
     <string name="font_color">Custom Font &amp; Color</string>
     <string name="dismiss">Dismiss</string>
-    <string name="overlay">Overlay</string>
     <string name="background_color">Background Color</string>
     <string name="gradient">Gradient</string>
+    <string name="overlay">Overlay</string>
+    <string name="action_primary">Action Primary</string>
+    <string name="plusminus">Plus Minus</string>
+    <string name="icon">Custom Icon</string>
+    <string name="progress">Progress</string>
+    <string name="enter_exit_vertical">Enter/Exit Vertical</string>
+    <string name="enter_exit_horizontal">Enter/Exit Horizontal</string>
+    <string name="anim_icon">Animation Icon</string>
+    
 
 </resources>
