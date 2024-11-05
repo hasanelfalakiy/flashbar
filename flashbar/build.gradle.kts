@@ -6,8 +6,9 @@
  */
 
 plugins {
-    // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
+    // Android Library
     alias(libs.plugins.android.library)
+    // Kotlin Android
     alias(libs.plugins.kotlin.android)
     
     // Aplly Dokka plugin
