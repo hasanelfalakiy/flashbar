@@ -69,6 +69,48 @@
             app:layout_constraintTop_toTopOf="@id/btn_basic_with_duration"
                 
         />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/fb_title"
+            android:id="@+id/btn_fb_title"
+            app:layout_constraintEnd_toStartOf="@id/btn_font_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_basic_with_duration"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/font_color"
+            android:id="@+id/btn_font_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btn_fb_title"
+            app:layout_constraintTop_toTopOf="@id/btn_fb_title"
+        />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/background_color"
+            android:id="@+id/btn_background_color"
+            app:layout_constraintEnd_toStartOf="@id/btn_gradient"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_fb_title"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gradient"
+            android:id="@+id/btn_gradient"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btn_background_color"
+            app:layout_constraintTop_toTopOf="@id/btn_background_color"
+        />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

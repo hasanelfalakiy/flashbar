@@ -5,6 +5,11 @@
     <string name="basic_without_duration">Basic without duration</string>
     <string name="basic_with_duration">Basic with duration</string>
     <string name="gravity_top">Gravity Top</string>
+    <string name="fb_title">Title</string>
+    <string name="font_color">Custom Font &amp; Color</string>
     <string name="dismiss">Dismiss</string>
+    <string name="overlay">Overlay</string>
+    <string name="background_color">Background Color</string>
+    <string name="gradient">Gradient</string>
 
 </resources>

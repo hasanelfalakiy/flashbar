@@ -19,6 +19,7 @@ package com.andihasan7.flashbarsample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.graphics.Typeface
 import com.andihasan7.flashbarsample.databinding.ActivityMainBinding
 import com.andihasan7.flashbar.Flashbar
 
@@ -66,6 +67,40 @@ public class MainActivity : AppCompatActivity() {
             }
             fl?.show()
         }
+        
+        binding.btnFbTitle.setOnClickListener {
+            var fl: Flashbar? = null
+            if (fl == null) {
+                fl = title()
+            }
+            fl?.show()
+        }
+        
+        binding.btnFontColor.setOnClickListener {
+            var fl: Flashbar? = null
+            if (fl == null) {
+                fl = fontColor()
+            }
+            fl?.show()
+        }
+        
+        binding.btnBackgroundColor.setOnClickListener {
+            var fl: Flashbar? = null
+            if (fl == null) {
+                fl = backgroundColor()
+            }
+            fl?.show()
+        }
+        
+        binding.btnGradient.setOnClickListener {
+            var fl: Flashbar? = null
+            if (fl == null) {
+                fl = gradient()
+            }
+            fl?.show()
+        }
+        
+        
     }
     
     private fun basicWithoutDuration(): Flashbar {
@@ -90,6 +125,48 @@ public class MainActivity : AppCompatActivity() {
                 .message("This is flashbar with top gravity")
                 .build()
     }
+    
+    private fun title(): Flashbar {
+        return Flashbar.Builder(this)
+                .gravity(Flashbar.Gravity.TOP)
+                .duration(1500)
+                .title("Hello World!")
+                .message("This is flashbar with title")
+                .build()
+    }
+    
+    private fun fontColor(): Flashbar {
+        return Flashbar.Builder(this)
+                .gravity(Flashbar.Gravity.TOP)
+                .duration(1500)
+                .title("Hello World!")
+                .message("This is flashbar with title and custom font and color")
+                .titleColorRes(R.color.green)
+                .titleSizeInSp(12f)
+                //.titleAppearance(R.style.CustomTextStyle)
+                .titleTypeface(Typeface.createFromAsset(getAssets(), "Sofia-Regular.otf"))
+                .messageTypeface(Typeface.createFromAsset(getAssets(), "libel-suit-rg.ttf"))
+                .build()
+    }
+    
+    private fun backgroundColor(): Flashbar {
+        return Flashbar.Builder(this)
+                .gravity(Flashbar.Gravity.TOP)
+                .duration(1500)
+                .message("The background color can be changed to any color of your choice.")
+                .backgroundColorRes(R.color.color_primary_dark)
+                .build()
+    }
+    
+    private fun gradient(): Flashbar {
+        return Flashbar.Builder(this)
+                .gravity(Flashbar.Gravity.TOP)
+                .duration(1500)
+                .message("You can have gradients by setting background drawable.")
+                .backgroundDrawable(R.drawable.bg_gradient)
+                .build()
+    }
+    
     
     override fun onDestroy() {
         super.onDestroy()
