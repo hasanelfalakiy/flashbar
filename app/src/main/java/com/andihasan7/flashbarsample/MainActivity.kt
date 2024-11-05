@@ -50,12 +50,44 @@ public class MainActivity : AppCompatActivity() {
         binding.btnDismiss.setOnClickListener {
             flashbar?.dismiss()
         }
+        
+        binding.btnBasicWithDuration.setOnClickListener {
+            var fl: Flashbar? = null
+            if (fl == null) {
+                fl = basicWithDuration()
+            }
+            fl?.show()
+        }
+        
+        binding.btnGravityTop.setOnClickListener {
+            var fl: Flashbar? = null
+            if (fl == null) {
+                fl = gravityTop()
+            }
+            fl?.show()
+        }
     }
     
     private fun basicWithoutDuration(): Flashbar {
         return Flashbar.Builder(this)
                 .gravity(Flashbar.Gravity.BOTTOM)
                 .message("This is a basic flashbar")
+                .build()
+    }
+    
+    private fun basicWithDuration(): Flashbar {
+        return Flashbar.Builder(this)
+                .gravity(Flashbar.Gravity.BOTTOM)
+                .duration(1500)
+                .message("This is flashbar with duration")
+                .build()
+    }
+    
+    private fun gravityTop(): Flashbar {
+        return Flashbar.Builder(this)
+                .gravity(Flashbar.Gravity.TOP)
+                .duration(1500)
+                .message("This is flashbar with top gravity")
                 .build()
     }
     

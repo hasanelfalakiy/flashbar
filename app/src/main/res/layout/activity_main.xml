@@ -46,6 +46,29 @@
             app:layout_constraintTop_toTopOf="@id/btn_basic_without_duration"
                 
         />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/basic_with_duration"
+            android:id="@+id/btn_basic_with_duration"
+            app:layout_constraintEnd_toStartOf="@id/btn_gravity_top"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_basic_without_duration"
+                
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gravity_top"
+            android:id="@+id/btn_gravity_top"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btn_basic_with_duration"
+            app:layout_constraintTop_toTopOf="@id/btn_basic_with_duration"
+                
+        />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

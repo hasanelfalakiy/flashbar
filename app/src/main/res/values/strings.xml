@@ -4,6 +4,7 @@
     <string name="title">Awesome Flashbar</string>
     <string name="basic_without_duration">Basic without duration</string>
     <string name="basic_with_duration">Basic with duration</string>
+    <string name="gravity_top">Gravity Top</string>
     <string name="dismiss">Dismiss</string>
 
 </resources>
