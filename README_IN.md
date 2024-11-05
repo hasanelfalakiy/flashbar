@@ -114,7 +114,7 @@ along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
 ```
 flashbar
 
-Copyright (C) 2024  Andi Hasan Ashari
+Copyright (C) 2024 Andi Hasan Ashari
 
 flashbar is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
