@@ -195,6 +195,27 @@
             app:layout_constraintStart_toEndOf="@id/btn_enter_exit_horizontal"
             app:layout_constraintTop_toTopOf="@id/btn_enter_exit_horizontal"
         />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/vibration"
+            android:id="@+id/btn_vibration"
+            app:layout_constraintEnd_toStartOf="@id/btn_vibration"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_enter_exit_horizontal"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vibration"
+            android:id="@+id/btn_vibration"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btn_shadow"
+            app:layout_constraintTop_toTopOf="@id/btn_shadow"
+        />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

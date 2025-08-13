@@ -166,6 +166,14 @@ public class MainActivity : AppCompatActivity() {
             fl?.show()
         }
         
+        binding.btnVibration.setOnClickListener {
+            var fl: Flashbar? = null
+            if (fl == null) {
+                fl = vibration()
+            }
+            fl?.show()
+        }
+        
         
         
         
@@ -304,7 +312,7 @@ public class MainActivity : AppCompatActivity() {
         return Flashbar.Builder(this)
                 .gravity(Flashbar.Gravity.TOP)
                 .duration(1500)
-                .title("Hello World!")
+                .title("Loading...")
                 .message("You can show the progress bar on either the left or right side of the view")
                 .showProgress(Flashbar.ProgressPosition.LEFT) // RIGHT
                 .progressTintRes(R.color.green)
@@ -353,7 +361,7 @@ public class MainActivity : AppCompatActivity() {
         return Flashbar.Builder(this)
                 .gravity(Flashbar.Gravity.TOP)
                 .duration(2500)
-                .title("Hello World!")
+                .title("Error!")
                 .message("You can make an icon as animation.")
                 .showIcon()
                 //.icon(R.drawable.ic_drop) custom icon
@@ -364,6 +372,16 @@ public class MainActivity : AppCompatActivity() {
                         .alpha()
                         .duration(750)
                         .accelerate())
+                .build()
+    }
+    
+    private fun vibration(): Flashbar {
+        return Flashbar.Builder(this)
+                .gravity(Flashbar.Gravity.TOP)
+                .duration(1500)
+                .title("Hello World!")
+                .message("You can trigger vibration.")
+                .vibrateOn(Flashbar.Vibration.SHOW, Flashbar.Vibration.DISMISS)
                 .build()
     }
     

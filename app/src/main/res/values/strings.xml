@@ -18,6 +18,6 @@
     <string name="enter_exit_vertical">Enter/Exit Vertical</string>
     <string name="enter_exit_horizontal">Enter/Exit Horizontal</string>
     <string name="anim_icon">Animation Icon</string>
-    
+    <string name="vibration">Vibration</string>
 
 </resources>
