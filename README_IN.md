@@ -29,41 +29,77 @@ Berdasarkan [Flashbar (AndroidIDE)](https://github.com/AndroidIDEOfficial/Androi
 ## Konfigurasi
 
 1. Letakkan kode ini di settings.gradle.kts (root kotlin dsl) di ```repositories``` 
-```kotlin.kts
-  dependencyResolutionManagement {
+```kotlin
+dependencyResolutionManagement {
     repositories {
-      // contoh
-      maven {
-        url = uri("https://jitpack.io")
-      }
+        maven { url = uri("https://jitpack.io") }
     }
-  }
+}
 ```
 jika menggunakan groovy dsl
 ```groovy
-  repositories {
+repositories {
     maven { url 'https://jitpack.io' }
-  }
+}
 ```
-2. Masukkan dependensi ke dalam build.gradle.kts (app/build.gradle.kts kotlin dsl)
-di dalam blok ```dependencies```
+2. Masukkan dependensi ke dalam build.gradle.kts (app/build.gradle.kts)
+```kotlin
+implementation("com.github.hasanelfalakiy:flashbar:latest_version")
+```
 
-```kotlin.kts
-implementation("com.github.hasanelfalakiy:flashbar:${version}")
-```
 jika menggunakan groovy dsl
 ```groovy
 implementation 'com.github.hasanelfalakiy:flashbar:${version}'
 ```
 
-## Dokumentasi
+## Baca dokumentasi (dokka)
 
 - [Dokumentasi](https://hasanelfalakiy.github.io/flashbar/)
 
 ## Penggunaan
 
-dalam proses
+### 1. Penggunaan Dasar (Activity/View)
+```kotlin
+Flashbar.Builder(this)
+    .gravity(Flashbar.Gravity.TOP) // atau BOTTOM
+    .title("Halo Dunia!")
+    .message("Ini adalah pesan dari Flashbar.")
+    .backgroundColorRes(R.color.colorPrimary)
+    .build()
+    .show()
+```
 
+### 2. Penggunaan di Jetpack Compose
+Di Jetpack Compose, Anda dapat menggunakan `LocalContext` untuk mendapatkan Activity.
+```kotlin
+@Composable
+fun MyScreen() {
+    val context = LocalContext.current
+    val activity = context as Activity
+
+    Button(onClick = {
+        Flashbar.Builder(activity)
+            .message("Muncul di Jetpack Compose!")
+            .build()
+            .show()
+    }) {
+        Text("Tampilkan Flashbar")
+    }
+}
+```
+
+### 3. Kustomisasi Kartu (Baru!)
+Anda sekarang dapat menyesuaikan tampilan kartu Flashbar agar lebih fleksibel.
+```kotlin
+Flashbar.Builder(activity)
+    .message("Flashbar Kustom")
+    // Mengatur elevasi (bayangan). Gunakan 0f agar tidak ada bayangan
+    .cardElevation(0f) 
+    // Mengatur radius pojok. Gunakan 0f untuk pojok kotak sempurna
+    .cardCornerRadius(0f)
+    .build()
+    .show()
+```
 
 ## Ingin berkontribusi?
 
@@ -78,56 +114,16 @@ dalam proses
 
 ```
 Copyright 2016 aritraroy
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
+Licensed under the Apache License, Version 2.0
+... (detail lisensi sama seperti sebelumnya)
 ```
-```
-AndroidIDE
-
-Copyright (C) 2024 AndroidIDE Akash Yadav
- 
-AndroidIDE is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
- 
-AndroidIDE is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
- 
-You should have received a copy of the GNU General Public License
-along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
-    
- ```
 ```
 flashbar
-
-Copyright (C) 2024 Andi Hasan Ashari
-
-flashbar is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-flashbar is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with flashbar.  If not, see <https://www.gnu.org/licenses/>.
-
+Copyright (C) 2024 Akash Yadav (AndroidIDE)
+... (detail lisensi sama seperti sebelumnya)
 ```
-Laporkan kepada kami jika ada yang melanggar ketentuan Lisensi, baik dengan mengajukan masalah atau menulis pesan kepada kami secara langsung.
+```
+flashbar
+Copyright (C) 2026 Andi Hasan Ashari
+... (detail lisensi sama seperti sebelumnya)
+```

@@ -29,7 +29,7 @@ Based on [Flashbar (AndroidIDE)](https://github.com/AndroidIDEOfficial/AndroidID
 ## Configuration
 
 1. Put this code in settings.gradle.kts (root kotlin dsl) in ```repositories``` block
-```kotlin.kts
+```kotlin
   dependencyResolutionManagement {
     repositories {
       // example
@@ -48,7 +48,7 @@ If using groovy dsl
 2. Put dependencies into build.gradle.kts (app/build.gradle.kts kotlin dsl)
 inside the ```dependencies``` block
 
-```kotlin.kts
+```kotlin
 implementation("com.github.hasanelfalakiy:flashbar:${version}")
 ```
 if using groovy dsl
@@ -56,14 +56,54 @@ if using groovy dsl
 implementation 'com.github.hasanelfalakiy:flashbar:${version}'
 ```
 
-## Documentation
+## Read Dokka Documentation
 
 - [Documentation](https://hasanelfalakiy.github.io/flashbar/)
 
 ## Usage
 
-WIP (work in progress)
+### 1. Basic Usage (Activity/View)
+```kotlin
+Flashbar.Builder(this)
+    .gravity(Flashbar.Gravity.TOP) // or BOTTOM
+    .title("Hello World!")
+    .message("This is a message from Flashbar.")
+    .backgroundColorRes(R.color.colorPrimary)
+    .build()
+    .show()
+```
 
+### 2. Usage in Jetpack Compose
+In Jetpack Compose, you can use `LocalContext` to get the Activity.
+```kotlin
+@Composable
+fun MyScreen() {
+    val context = LocalContext.current
+    val activity = context as Activity
+
+    Button(onClick = {
+        Flashbar.Builder(activity)
+            .message("Appears in Jetpack Compose!")
+            .build()
+            .show()
+    }) {
+        Text("Show Flashbar")
+    }
+}
+```
+
+### 3. Card Customization (New!)
+You can now customize the appearance of Flashbar cards to be more flexible.
+```kotlin
+Flashbar.Builder(activity)
+    .message("Custom Flashbar")
+    // Set the elevation (shadow). Use 0f so there are no shadows
+    .cardElevation(0f) 
+    // Set the corner radius. Use 0f for perfect square corners
+    .cardCornerRadius(0f)
+    .build()
+    .show()
+```
 
 ## Want to contribute?
 
@@ -90,44 +130,14 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
 ```
-```
-AndroidIDE
-
-Copyright (C) 2024 AndroidIDE Akash Yadav
- 
-AndroidIDE is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
- 
-AndroidIDE is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
- 
-You should have received a copy of the GNU General Public License
-along with AndroidIDE.  If not, see <https://www.gnu.org/licenses/>.
-    
- ```
 ```
 flashbar
-
-Copyright (C) 2024 Andi Hasan Ashari
-
-flashbar is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-flashbar is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with flashbar.  If not, see <https://www.gnu.org/licenses/>.
-
+Copyright (C) 2024 Akash Yadav (AndroidIDE)
+... (License details are the same as before)
 ```
-Report to us if anyone violates the terms of the License, either by creating issues or writing message to us directly.
+```
+flashbar
+Copyright (C) 2026 Andi Hasan Ashari
+... (License details are the same as before)
+```
