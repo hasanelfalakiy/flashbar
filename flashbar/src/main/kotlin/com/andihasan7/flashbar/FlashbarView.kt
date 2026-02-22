@@ -44,6 +44,7 @@ import androidx.core.view.marginRight
 import androidx.core.view.marginTop
 import androidx.core.view.updateLayoutParams
 import com.google.android.material.button.MaterialButton
+import com.google.android.material.card.MaterialCardView
 import com.google.android.material.progressindicator.CircularProgressIndicator
 import com.andihasan7.flashbar.Flashbar.Gravity
 import com.andihasan7.flashbar.Flashbar.Gravity.BOTTOM
@@ -484,5 +485,22 @@ class FlashbarView(context: Context) : LinearLayout(context) {
       }
 
     progressBar.progressTintList = ColorStateList.valueOf(progressTint)
+  }
+
+  fun setCardElevation(elevation: Float?) {
+    if (elevation == null) return
+    (binding.root as MaterialCardView).cardElevation = elevation
+    
+    // If elevation is 0, we should probably remove the margins that were added for shadow
+    if (elevation == 0f) {
+      binding.root.updateLayoutParams<MarginLayoutParams> {
+        setMargins(0, 0, 0, 0)
+      }
+    }
+  }
+
+  fun setCardCornerRadius(radius: Float?) {
+    if (radius == null) return
+    (binding.root as MaterialCardView).radius = radius
   }
 }

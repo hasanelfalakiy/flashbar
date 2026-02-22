@@ -27,6 +27,7 @@ import android.widget.ImageView.ScaleType
 import android.widget.ImageView.ScaleType.CENTER_CROP
 import androidx.annotation.ColorInt
 import androidx.annotation.ColorRes
+import androidx.annotation.DimenRes
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.annotation.StyleRes
@@ -166,6 +167,9 @@ class Flashbar private constructor(private var builder: Builder) {
 
       setProgressPosition(builder.progressPosition)
       setProgressTint(builder.progressTint, builder.progressPosition)
+      
+      setCardElevation(builder.cardElevation)
+      setCardCornerRadius(builder.cardCornerRadius)
     }
   }
 
@@ -243,6 +247,9 @@ class Flashbar private constructor(private var builder: Builder) {
 
     internal var enterAnimBuilder: FlashAnimBarBuilder? = null
     internal var exitAnimBuilder: FlashAnimBarBuilder? = null
+
+    internal var cardElevation: Float? = null
+    internal var cardCornerRadius: Float? = null
 
     /**
      * Specifies the gravity from where the flashbar will be shown (top/bottom) Default gravity is
@@ -574,6 +581,22 @@ class Flashbar private constructor(private var builder: Builder) {
     /** Specifies the indeterminate progress tint resource */
     fun progressTintRes(@ColorRes colorId: Int) = apply {
       this.progressTint = ContextCompat.getColor(activity, colorId)
+    }
+
+    /** Specifies the elevation of the flashbar card */
+    fun cardElevation(elevation: Float) = apply { this.cardElevation = elevation }
+
+    /** Specifies the elevation of the flashbar card using resource */
+    fun cardElevationRes(@DimenRes elevationId: Int) = apply {
+      this.cardElevation = activity.resources.getDimension(elevationId)
+    }
+
+    /** Specifies the corner radius of the flashbar card */
+    fun cardCornerRadius(radius: Float) = apply { this.cardCornerRadius = radius }
+
+    /** Specifies the corner radius of the flashbar card using resource */
+    fun cardCornerRadiusRes(@DimenRes radiusId: Int) = apply {
+      this.cardCornerRadius = activity.resources.getDimension(radiusId)
     }
 
     /** Builds a flashbar instance */
