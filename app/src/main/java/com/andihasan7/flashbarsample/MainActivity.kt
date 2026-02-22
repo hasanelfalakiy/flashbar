@@ -196,6 +196,8 @@ public class MainActivity : AppCompatActivity() {
         return Flashbar.Builder(this)
                 .gravity(Flashbar.Gravity.TOP)
                 .duration(1500)
+                .cardElevation(0f)
+                .cardCornerRadius(0f)
                 .message("This is flashbar with top gravity")
                 .build()
     }

@@ -65,6 +65,10 @@ $dokka.location:com.andihasan7.flashbar/Flashbar.Builder/backgroundDrawable/#kot
 $dokka.location:com.andihasan7.flashbar/Flashbar.Builder/barDismissListener/#com.andihasan7.flashbar.Flashbar.OnBarDismissListener/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar/-builder/bar-dismiss-listener.html
 $dokka.location:com.andihasan7.flashbar/Flashbar.Builder/barShowListener/#com.andihasan7.flashbar.Flashbar.OnBarShowListener/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar/-builder/bar-show-listener.html
 $dokka.location:com.andihasan7.flashbar/Flashbar.Builder/build/#/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar/-builder/build.html
+$dokka.location:com.andihasan7.flashbar/Flashbar.Builder/cardCornerRadius/#kotlin.Float/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar/-builder/card-corner-radius.html
+$dokka.location:com.andihasan7.flashbar/Flashbar.Builder/cardCornerRadiusRes/#kotlin.Int/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar/-builder/card-corner-radius-res.html
+$dokka.location:com.andihasan7.flashbar/Flashbar.Builder/cardElevation/#kotlin.Float/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar/-builder/card-elevation.html
+$dokka.location:com.andihasan7.flashbar/Flashbar.Builder/cardElevationRes/#kotlin.Int/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar/-builder/card-elevation-res.html
 $dokka.location:com.andihasan7.flashbar/Flashbar.Builder/dismissOnTapOutside/#/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar/-builder/dismiss-on-tap-outside.html
 $dokka.location:com.andihasan7.flashbar/Flashbar.Builder/duration/#kotlin.Long/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar/-builder/duration.html
 $dokka.location:com.andihasan7.flashbar/Flashbar.Builder/enableSwipeToDismiss/#/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar/-builder/enable-swipe-to-dismiss.html
@@ -190,6 +194,8 @@ $dokka.location:com.andihasan7.flashbar/FlashbarView/FlashbarView/#android.conte
 $dokka.location:com.andihasan7.flashbar/FlashbarView/setBarBackgroundColor/#kotlin.Int?/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar-view/set-bar-background-color.html
 $dokka.location:com.andihasan7.flashbar/FlashbarView/setBarBackgroundDrawable/#android.graphics.drawable.Drawable?/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar-view/set-bar-background-drawable.html
 $dokka.location:com.andihasan7.flashbar/FlashbarView/setBarTapListener/#com.andihasan7.flashbar.Flashbar.OnTapListener?/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar-view/set-bar-tap-listener.html
+$dokka.location:com.andihasan7.flashbar/FlashbarView/setCardCornerRadius/#kotlin.Float?/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar-view/set-card-corner-radius.html
+$dokka.location:com.andihasan7.flashbar/FlashbarView/setCardElevation/#kotlin.Float?/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar-view/set-card-elevation.html
 $dokka.location:com.andihasan7.flashbar/FlashbarView/setIconBitmap/#android.graphics.Bitmap?/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar-view/set-icon-bitmap.html
 $dokka.location:com.andihasan7.flashbar/FlashbarView/setIconColorFilter/#kotlin.Int?#android.graphics.PorterDuff.Mode?/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar-view/set-icon-color-filter.html
 $dokka.location:com.andihasan7.flashbar/FlashbarView/setIconDrawable/#android.graphics.drawable.Drawable?/PointingToDeclaration/flashbar/com.andihasan7.flashbar/-flashbar-view/set-icon-drawable.html

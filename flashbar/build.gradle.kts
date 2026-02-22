@@ -24,7 +24,7 @@ android {
     
     defaultConfig {
         
-        minSdk = 21
+        minSdk = 23
         consumerProguardFiles("consumer-rules.pro")
         
         
@@ -60,18 +60,12 @@ afterEvaluate {
 
                 groupId = "com.github.hasanelfalakiy"
                 artifactId = "flashbar"
-                version = "1.0-SNAPSHOT"
+                version = "2.0.0"
             }
         }
     }
 }
 
-/*
-repositories {
-    // Use Maven Central for resolving dependencies.
-    mavenCentral()
-}
-*/
 dependencies {
     
     implementation(libs.common.utilcode)
@@ -82,19 +76,6 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.google.material)
 }
-
-// Apply a specific Java toolchain to ease working on different environments.
-/*java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-    }
-}
-
-tasks.named<Test>("test") {
-    // Use JUnit Platform for unit tests.
-    useJUnitPlatform()
-}
-*/
 
 tasks.dokkaHtml.configure {
     // custom dokka output directory
