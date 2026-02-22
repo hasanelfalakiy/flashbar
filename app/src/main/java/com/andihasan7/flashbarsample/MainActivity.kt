@@ -175,8 +175,6 @@ public class MainActivity : AppCompatActivity() {
         }
         
         
-        
-        
     }
     
     private fun basicWithoutDuration(): Flashbar {
