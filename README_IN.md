@@ -10,6 +10,8 @@
 <p align="center">
 <!-- Latest release -->
 <img src="https://img.shields.io/github/v/release/hasanelfalakiy/flashbar?include_releases&label=latest%20release&style=for-the-badge&color=brightgreen" alt="latest_release"/>
+<!-- Jitpack -->
+[![](https://jitpack.io/v/hasanelfalakiy/flashbar.svg)](https://jitpack.io/#hasanelfalakiy/flashbar)
 <!-- Github Repo size -->
 <img src="https://img.shields.io/github/repo-size/hasanelfalakiy/flashbar?style=for-the-badge">
 <!-- Build with Kotlin -->
