@@ -15,22 +15,16 @@ plugins {
     alias(libs.plugins.dokka)
     
     // maven publish
-	id("maven-publish")
-}
-
-subprojects {
-    apply(libs.plugins.dokka)
+    id("maven-publish")
 }
 
 android {
     namespace = "com.andihasan7.flashbar"
-    compileSdk = 34
+    compileSdk = 36
     
     defaultConfig {
         
         minSdk = 21
-        targetSdk = 34
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
         
         
@@ -79,13 +73,6 @@ repositories {
 }
 */
 dependencies {
-    // Use the Kotlin JUnit 5 integration.
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
-
-    // Use the JUnit 5 integration.
-    testImplementation(libs.junit.jupiter.engine)
-
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     
     implementation(libs.common.utilcode)
 

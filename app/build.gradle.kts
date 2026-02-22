@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.andihasan7.flashbarsample"
-    compileSdk = 34
+    compileSdk = 36
     
     defaultConfig {
         applicationId = "com.andihasan7.flashbarsample"
         minSdk = 26
-        targetSdk = 33
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
         
